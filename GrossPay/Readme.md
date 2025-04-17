@@ -4,6 +4,7 @@ You need to take into account that the result has exactly two digits after the d
 
 # Input
 Please enter Hour: 35
+
 Please enter Rate: 2.75
 
 # Output
