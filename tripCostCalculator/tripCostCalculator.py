@@ -1,8 +1,0 @@
-print("Welcome to the Trip Cost Calculator!")
-stayDays = int(input("How many days will you stay?"))
-hotelPerNight = float(input("How much does hotel cost per night?"))
-flight = float(input("How much does the flight cost?"))
-rentalCar = float(input("If you need rental car please enter the price otherwise enter 0:"))
-otherExpenses = float(input("Enter other possible expenses:"))
-totalCost = round((stayDays * hotelPerNight + flight + stayDays * rentalCar + otherExpenses), 2)
-print(f"Total Cost: ${totalCost}")
